@@ -34,6 +34,7 @@
   
   <li> 
   Collect all static files <br>
+  <strong> ** make sure to commit changes seen here </strong> <br>
   <code> python manage.py collectstatic </code>
   </li>
   
