@@ -19,7 +19,7 @@
   
   <li> 
   Create and activate a virtual env <br>
-  <code> virtualenv venv </code>
+  <code> virtualenv venv </code> <br>
   <code> . venv/bin/activate </code>
   </li>
 
