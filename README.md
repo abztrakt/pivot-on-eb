@@ -62,3 +62,6 @@
   <code> eb deploy </code>
   </li>
 </ul>
+
+<pre>To run manage.py commands from eb console: 
+<a href= 'https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance'>https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance</a></pre>
