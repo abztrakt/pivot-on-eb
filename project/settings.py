@@ -123,3 +123,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = 'static'
 
 CSV_ROOT = 'data/'
+
+LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/login/'

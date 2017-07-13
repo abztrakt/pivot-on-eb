@@ -1,3 +1,3 @@
 awsebcli
 -e git+https://github.com/uw-it-aca/axdd-aws.git#egg=awslogin
--e git+https://github.com/uw-it-aca/pivot.git@develop#egg=pivot
+-e git+https://github.com/uw-it-aca/pivot.git@feature/auth#egg=pivot
