@@ -63,5 +63,24 @@
   </li>
 </ul>
 
-<pre>To run manage.py commands from eb console: 
-<a href= 'https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance'>https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance</a></pre>
+<h3> FAQ's </h3>
+
+<ul>
+  <li> 
+  How do I fix 'attempt to write a readonly database'? <br>
+  <code> eb ssh </code> <br>
+  <code> cd /opt/python/current/app </code> <br>
+  <code> sudo su </code> <br>
+  <code> chown wsgi:root db.sqlite3 </code> 
+  
+  </li>
+   
+  <br>
+  
+  <li> 
+  How do I run management commands from eb console? <br>
+  <pre>To run manage.py commands from eb console: 
+  <a href= 'https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance'>https://stackoverflow.com/questions/19997343/run-manage-py-from-aws-eb-linux-instance</a></pre>
+
+  </li>
+</ul>
