@@ -13,5 +13,3 @@ ENV/
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
-# htpasswd file
-*.htpasswd
