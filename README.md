@@ -29,6 +29,13 @@
   Install all requirements <br>
   <code> pip install -r requirements.txt </code>
   </li>
+  
+  <br>
+  
+  <li> 
+  Create .htpasswd file for BASIC AUTH on server <br>
+  <code> htpasswd -c ./.htpasswd username password </code>
+  </li>
 </ul>
 
 <h3> Deployment </h3>
