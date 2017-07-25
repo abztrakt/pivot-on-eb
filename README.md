@@ -50,7 +50,7 @@
   
   <li> 
   Initialize the eb cli (The saml profile is unique to UW federated login) <br>
-  <strong> ** only required once to create an eb instance </strong> <br>
+  <strong> ** only required once to create an eb application </strong> <br>
   <code> eb init --profile saml </code>
   </li>
    
