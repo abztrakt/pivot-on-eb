@@ -50,7 +50,7 @@
   
   <li> 
   Initialize the eb cli (The saml profile is unique to UW federated login) <br>
-  <strong> ** only required once to create an eb instance </strong> <br>
+  <strong> ** only required once to create an eb application </strong> <br>
   <code> eb init --profile saml </code>
   </li>
    
@@ -59,6 +59,7 @@
   <li> 
   Create and deploy to eb environment <br>
   <strong> ** only required on first deployment </strong> <br>
+  <strong> * since we have not commited htpasswd, this step should fail; perform a staged deploy next. </strong> <br>
   <code> eb create </code>
   </li>
    
@@ -79,6 +80,15 @@
   <code> cd /opt/python/current/app </code> <br>
   <code> sudo su </code> <br>
   <code> chown wsgi:root db.sqlite3 </code> 
+  
+  </li>
+   
+  <br>
+  
+  <li> 
+  How do I perform a staged deploy or deploy uncommited changes? <br>
+  <code> git add --all </code> <br>
+  <code> eb deploy --staged </code>
   
   </li>
    
