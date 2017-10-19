@@ -59,7 +59,6 @@
   <li> 
   Create and deploy to eb environment <br>
   <strong> ** only required on first deployment </strong> <br>
-  <strong> * since we have not commited htpasswd, this step should fail; perform a staged deploy next. </strong> <br>
   <code> eb create </code>
   </li>
    
